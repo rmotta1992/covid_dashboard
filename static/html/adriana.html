@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Covid-19 By Borough</title>
+  <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+  <div>
+    <h1> Daily Cases, Hospitalization and Deaths</h1>
+      <p>The charts below show the daily number of cases, hospitalizations and deaths since March until November for each borough in NYC.</p>
+        <h4>Manhattan: confirmed cases</h4>
+      <svg id="manhattan" width="900" height="600"></svg>
+  </div>
+  <div>
+    <h4>Queens: confirmed cases</h4>
+      <svg id="queens" width="900" height="600"></svg>
+  </div>
+  <div>
+    <h4>Brooklyn: confirmed cases</h4>
+      <svg id="brooklyn" width="900" height="600"></svg>
+  </div>
+  <div>
+    <h4>Bronx: confirmed cases</h4>
+      <svg id="bronx" width="900" height="600"></svg>
+  </div>
+  <div>
+    <h4>State Island: confirmed cases</h4>
+      <svg id="stateIsland" width="900" height="600"></svg>
+  </div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script> 
+  <script src="../js/manhattan.js"></script>
+  <script src="../js/queens.js"></script>
+  <script src="../js/brooklyn.js"></script>
+  <script src="../js/bronx.js"></script>
+  <script src="../js/stateIsland.js"></script>
+</body>
+</html>
